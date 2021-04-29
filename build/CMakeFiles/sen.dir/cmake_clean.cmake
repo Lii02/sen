@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sen.dir/compiler/array.cpp.obj"
   "CMakeFiles/sen.dir/compiler/array.cpp.obj.d"
+  "CMakeFiles/sen.dir/compiler/error_handler.cpp.obj"
+  "CMakeFiles/sen.dir/compiler/error_handler.cpp.obj.d"
+  "CMakeFiles/sen.dir/compiler/file.cpp.obj"
+  "CMakeFiles/sen.dir/compiler/file.cpp.obj.d"
+  "CMakeFiles/sen.dir/compiler/lexer.cpp.obj"
+  "CMakeFiles/sen.dir/compiler/lexer.cpp.obj.d"
   "CMakeFiles/sen.dir/compiler/main.cpp.obj"
   "CMakeFiles/sen.dir/compiler/main.cpp.obj.d"
   "CMakeFiles/sen.dir/compiler/stringA.cpp.obj"

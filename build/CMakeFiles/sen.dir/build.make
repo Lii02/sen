@@ -82,10 +82,52 @@ CMakeFiles/sen.dir/compiler/array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sen.dir/compiler/array.cpp.s"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Dev\sen2.0\compiler\array.cpp -o CMakeFiles\sen.dir\compiler\array.cpp.s
 
+CMakeFiles/sen.dir/compiler/error_handler.cpp.obj: CMakeFiles/sen.dir/flags.make
+CMakeFiles/sen.dir/compiler/error_handler.cpp.obj: ../compiler/error_handler.cpp
+CMakeFiles/sen.dir/compiler/error_handler.cpp.obj: CMakeFiles/sen.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sen.dir/compiler/error_handler.cpp.obj"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sen.dir/compiler/error_handler.cpp.obj -MF CMakeFiles\sen.dir\compiler\error_handler.cpp.obj.d -o CMakeFiles\sen.dir\compiler\error_handler.cpp.obj -c D:\Dev\sen2.0\compiler\error_handler.cpp
+
+CMakeFiles/sen.dir/compiler/error_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sen.dir/compiler/error_handler.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dev\sen2.0\compiler\error_handler.cpp > CMakeFiles\sen.dir\compiler\error_handler.cpp.i
+
+CMakeFiles/sen.dir/compiler/error_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sen.dir/compiler/error_handler.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Dev\sen2.0\compiler\error_handler.cpp -o CMakeFiles\sen.dir\compiler\error_handler.cpp.s
+
+CMakeFiles/sen.dir/compiler/file.cpp.obj: CMakeFiles/sen.dir/flags.make
+CMakeFiles/sen.dir/compiler/file.cpp.obj: ../compiler/file.cpp
+CMakeFiles/sen.dir/compiler/file.cpp.obj: CMakeFiles/sen.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sen.dir/compiler/file.cpp.obj"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sen.dir/compiler/file.cpp.obj -MF CMakeFiles\sen.dir\compiler\file.cpp.obj.d -o CMakeFiles\sen.dir\compiler\file.cpp.obj -c D:\Dev\sen2.0\compiler\file.cpp
+
+CMakeFiles/sen.dir/compiler/file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sen.dir/compiler/file.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dev\sen2.0\compiler\file.cpp > CMakeFiles\sen.dir\compiler\file.cpp.i
+
+CMakeFiles/sen.dir/compiler/file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sen.dir/compiler/file.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Dev\sen2.0\compiler\file.cpp -o CMakeFiles\sen.dir\compiler\file.cpp.s
+
+CMakeFiles/sen.dir/compiler/lexer.cpp.obj: CMakeFiles/sen.dir/flags.make
+CMakeFiles/sen.dir/compiler/lexer.cpp.obj: ../compiler/lexer.cpp
+CMakeFiles/sen.dir/compiler/lexer.cpp.obj: CMakeFiles/sen.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sen.dir/compiler/lexer.cpp.obj"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sen.dir/compiler/lexer.cpp.obj -MF CMakeFiles\sen.dir\compiler\lexer.cpp.obj.d -o CMakeFiles\sen.dir\compiler\lexer.cpp.obj -c D:\Dev\sen2.0\compiler\lexer.cpp
+
+CMakeFiles/sen.dir/compiler/lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sen.dir/compiler/lexer.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Dev\sen2.0\compiler\lexer.cpp > CMakeFiles\sen.dir\compiler\lexer.cpp.i
+
+CMakeFiles/sen.dir/compiler/lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sen.dir/compiler/lexer.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Dev\sen2.0\compiler\lexer.cpp -o CMakeFiles\sen.dir\compiler\lexer.cpp.s
+
 CMakeFiles/sen.dir/compiler/main.cpp.obj: CMakeFiles/sen.dir/flags.make
 CMakeFiles/sen.dir/compiler/main.cpp.obj: ../compiler/main.cpp
 CMakeFiles/sen.dir/compiler/main.cpp.obj: CMakeFiles/sen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sen.dir/compiler/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sen.dir/compiler/main.cpp.obj"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sen.dir/compiler/main.cpp.obj -MF CMakeFiles\sen.dir\compiler\main.cpp.obj.d -o CMakeFiles\sen.dir\compiler\main.cpp.obj -c D:\Dev\sen2.0\compiler\main.cpp
 
 CMakeFiles/sen.dir/compiler/main.cpp.i: cmake_force
@@ -99,7 +141,7 @@ CMakeFiles/sen.dir/compiler/main.cpp.s: cmake_force
 CMakeFiles/sen.dir/compiler/stringA.cpp.obj: CMakeFiles/sen.dir/flags.make
 CMakeFiles/sen.dir/compiler/stringA.cpp.obj: ../compiler/stringA.cpp
 CMakeFiles/sen.dir/compiler/stringA.cpp.obj: CMakeFiles/sen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sen.dir/compiler/stringA.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sen.dir/compiler/stringA.cpp.obj"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sen.dir/compiler/stringA.cpp.obj -MF CMakeFiles\sen.dir\compiler\stringA.cpp.obj.d -o CMakeFiles\sen.dir\compiler\stringA.cpp.obj -c D:\Dev\sen2.0\compiler\stringA.cpp
 
 CMakeFiles/sen.dir/compiler/stringA.cpp.i: cmake_force
@@ -113,7 +155,7 @@ CMakeFiles/sen.dir/compiler/stringA.cpp.s: cmake_force
 CMakeFiles/sen.dir/compiler/token.cpp.obj: CMakeFiles/sen.dir/flags.make
 CMakeFiles/sen.dir/compiler/token.cpp.obj: ../compiler/token.cpp
 CMakeFiles/sen.dir/compiler/token.cpp.obj: CMakeFiles/sen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sen.dir/compiler/token.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sen.dir/compiler/token.cpp.obj"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sen.dir/compiler/token.cpp.obj -MF CMakeFiles\sen.dir\compiler\token.cpp.obj.d -o CMakeFiles\sen.dir\compiler\token.cpp.obj -c D:\Dev\sen2.0\compiler\token.cpp
 
 CMakeFiles/sen.dir/compiler/token.cpp.i: cmake_force
@@ -127,6 +169,9 @@ CMakeFiles/sen.dir/compiler/token.cpp.s: cmake_force
 # Object files for target sen
 sen_OBJECTS = \
 "CMakeFiles/sen.dir/compiler/array.cpp.obj" \
+"CMakeFiles/sen.dir/compiler/error_handler.cpp.obj" \
+"CMakeFiles/sen.dir/compiler/file.cpp.obj" \
+"CMakeFiles/sen.dir/compiler/lexer.cpp.obj" \
 "CMakeFiles/sen.dir/compiler/main.cpp.obj" \
 "CMakeFiles/sen.dir/compiler/stringA.cpp.obj" \
 "CMakeFiles/sen.dir/compiler/token.cpp.obj"
@@ -135,6 +180,9 @@ sen_OBJECTS = \
 sen_EXTERNAL_OBJECTS =
 
 sen.exe: CMakeFiles/sen.dir/compiler/array.cpp.obj
+sen.exe: CMakeFiles/sen.dir/compiler/error_handler.cpp.obj
+sen.exe: CMakeFiles/sen.dir/compiler/file.cpp.obj
+sen.exe: CMakeFiles/sen.dir/compiler/lexer.cpp.obj
 sen.exe: CMakeFiles/sen.dir/compiler/main.cpp.obj
 sen.exe: CMakeFiles/sen.dir/compiler/stringA.cpp.obj
 sen.exe: CMakeFiles/sen.dir/compiler/token.cpp.obj
@@ -142,7 +190,7 @@ sen.exe: CMakeFiles/sen.dir/build.make
 sen.exe: CMakeFiles/sen.dir/linklibs.rsp
 sen.exe: CMakeFiles/sen.dir/objects1.rsp
 sen.exe: CMakeFiles/sen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sen.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable sen.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sen.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

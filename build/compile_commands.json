@@ -6,6 +6,21 @@
 },
 {
   "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\error_handler.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\error_handler.cpp",
+  "file": "D:/Dev/sen2.0/compiler/error_handler.cpp"
+},
+{
+  "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\file.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\file.cpp",
+  "file": "D:/Dev/sen2.0/compiler/file.cpp"
+},
+{
+  "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\lexer.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\lexer.cpp",
+  "file": "D:/Dev/sen2.0/compiler/lexer.cpp"
+},
+{
+  "directory": "D:/Dev/sen2.0/build",
   "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\main.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\main.cpp",
   "file": "D:/Dev/sen2.0/compiler/main.cpp"
 },

@@ -65,10 +65,10 @@ inline void dynamic_array<T>::copy(const dynamic_array<T>& arr)
 {
     this->len = 0;
     this->cap = 1;
-    this->data = new T[arr.cap];
-    for(size_t i = 0; i < arr.GetLength(); i++)
+    this->data = new T[arr.get_capacity()];
+    for(size_t i = 0; i < arr.get_length(); i++)
     {
-        this->Push(arr.Get()[i]);
+        this->push(arr.get()[i]);
     }
 }
 
