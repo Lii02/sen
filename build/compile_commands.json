@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\array.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\array.cpp",
+  "file": "D:/Dev/sen2.0/compiler/array.cpp"
+},
+{
+  "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\main.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\main.cpp",
+  "file": "D:/Dev/sen2.0/compiler/main.cpp"
+},
+{
+  "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\stringA.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\stringA.cpp",
+  "file": "D:/Dev/sen2.0/compiler/stringA.cpp"
+},
+{
+  "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\token.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\token.cpp",
+  "file": "D:/Dev/sen2.0/compiler/token.cpp"
+}
+]
