@@ -20,6 +20,7 @@ public:
     error_handler(bool give_warnings = true);
     void reset_stats();
     void report_error_token(const char* msg, sourceobject<token> src);
+    void report_error_general(const char* msg, uint32_t line, stringA path);
     void post() const;
 };
 

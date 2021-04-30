@@ -20,9 +20,9 @@ public:
 
     sourceobject() = default;
 
-    T& get_data() const
+    T* get_data()
     {
-        return data;
+        return &data;
     }
 
     stringA get_path() const

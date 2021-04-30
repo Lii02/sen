@@ -2,6 +2,12 @@
 #define FILE_H
 #include "stringa.h"
 
-bool load_file(const char* path, stringA* str);
+typedef struct
+{
+    stringA source;
+    bool loaded;
+} file_t;
+
+file_t* load_file(const char* path);
 
 #endif

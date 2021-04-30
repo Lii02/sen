@@ -18,12 +18,13 @@ public:
     const stringA& operator+=(char c);
     const stringA& operator+=(const char* str);
     char& operator[](int i);
-    char* get_buffer() const;
+    const char* get_buffer() const;
     size_t length() const;
     bool empty() const;
     int find_first(char c, int start = 0);
     stringA substring(int s, int e);
     bool operator==(const stringA& str);
+    inline char at(int i) { return data[i]; }
 };
 
 #endif

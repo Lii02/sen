@@ -14,14 +14,6 @@ int main(int argc, char** argv)
         exit(0);
     }
 
-    stringA main_file;
-    bool loaded = load_file(argv[1], &main_file);
-    if(!loaded)
-    {
-        printf("SEN: Failed to load: %s\n", argv[1]);
-        exit(0);
-    }
-
     arg_packet_t args = {0};
     for(int i = 2; i < argc; i++)
     {
@@ -46,13 +38,29 @@ int main(int argc, char** argv)
             printf("SEN: Unknown flag: %s\n", argv[i]);
         }
     }
-
-    error_handler* ehandler = new error_handler(args.give_warnings);
-    if(!main_file.empty())
+    
+    file_t* main_file = load_file(argv[1]);
+    if(!main_file->loaded)
     {
-        lexer lex = lexer(&main_file, ehandler);
+        printf("SEN: Failed to load: %s\n", argv[1]);
+        exit(0);
+    }
+    
+    error_handler* ehandler = new error_handler(args.give_warnings);
+    if(!main_file->source.empty())
+    {
+        lexer lex = lexer(&main_file->source, argv[1], ehandler);
+        lex.analyze();
+
+        if(args.debug)
+        {
+            lex.post_debug();
+        }
     }
 
+    ehandler->post();
+
+    delete main_file;
     delete ehandler;
     return 0;
 }

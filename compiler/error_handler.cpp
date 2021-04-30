@@ -20,7 +20,14 @@ void error_handler::report_error_token(const char* msg, sourceobject<token> src)
     this->pack.errors++;
 }
 
+void error_handler::report_error_general(const char* msg, uint32_t line, stringA path)
+{
+    printf("SEN: Error: %s\n", msg);
+    printf("\tLocation: [%s:%d]\n", path.get_buffer(), line);
+    this->pack.errors++;
+}
+
 void error_handler::post() const
 {
-    printf("SEN: Compiled with %d error(s) and %d warning(s)!\n", pack.errors, pack.errors);
+    printf("SEN: Compiled with %d error(s) and %d warning(s)!\n", pack.errors, pack.warnings);
 }

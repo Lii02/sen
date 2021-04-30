@@ -49,7 +49,7 @@ char& stringA::operator[](int i)
     return data[i];
 }
 
-char* stringA::get_buffer() const
+const char* stringA::get_buffer() const
 {
     return data.get();
 }
