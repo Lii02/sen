@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sen
+# Target rules for targets named senc
 
 # Build rule for target.
-sen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sen
-.PHONY : sen
+senc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 senc
+.PHONY : senc
 
 # fast build rule for target.
-sen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/build
-.PHONY : sen/fast
+senc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/build
+.PHONY : senc/fast
 
 compiler/array.obj: compiler/array.cpp.obj
 .PHONY : compiler/array.obj
 
 # target to build an object file
 compiler/array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/array.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/array.cpp.obj
 .PHONY : compiler/array.cpp.obj
 
 compiler/array.i: compiler/array.cpp.i
@@ -141,7 +141,7 @@ compiler/array.i: compiler/array.cpp.i
 
 # target to preprocess a source file
 compiler/array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/array.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/array.cpp.i
 .PHONY : compiler/array.cpp.i
 
 compiler/array.s: compiler/array.cpp.s
@@ -149,15 +149,39 @@ compiler/array.s: compiler/array.cpp.s
 
 # target to generate assembly for a file
 compiler/array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/array.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/array.cpp.s
 .PHONY : compiler/array.cpp.s
+
+compiler/ast.obj: compiler/ast.cpp.obj
+.PHONY : compiler/ast.obj
+
+# target to build an object file
+compiler/ast.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/ast.cpp.obj
+.PHONY : compiler/ast.cpp.obj
+
+compiler/ast.i: compiler/ast.cpp.i
+.PHONY : compiler/ast.i
+
+# target to preprocess a source file
+compiler/ast.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/ast.cpp.i
+.PHONY : compiler/ast.cpp.i
+
+compiler/ast.s: compiler/ast.cpp.s
+.PHONY : compiler/ast.s
+
+# target to generate assembly for a file
+compiler/ast.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/ast.cpp.s
+.PHONY : compiler/ast.cpp.s
 
 compiler/error_handler.obj: compiler/error_handler.cpp.obj
 .PHONY : compiler/error_handler.obj
 
 # target to build an object file
 compiler/error_handler.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/error_handler.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/error_handler.cpp.obj
 .PHONY : compiler/error_handler.cpp.obj
 
 compiler/error_handler.i: compiler/error_handler.cpp.i
@@ -165,7 +189,7 @@ compiler/error_handler.i: compiler/error_handler.cpp.i
 
 # target to preprocess a source file
 compiler/error_handler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/error_handler.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/error_handler.cpp.i
 .PHONY : compiler/error_handler.cpp.i
 
 compiler/error_handler.s: compiler/error_handler.cpp.s
@@ -173,7 +197,7 @@ compiler/error_handler.s: compiler/error_handler.cpp.s
 
 # target to generate assembly for a file
 compiler/error_handler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/error_handler.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/error_handler.cpp.s
 .PHONY : compiler/error_handler.cpp.s
 
 compiler/file.obj: compiler/file.cpp.obj
@@ -181,7 +205,7 @@ compiler/file.obj: compiler/file.cpp.obj
 
 # target to build an object file
 compiler/file.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/file.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/file.cpp.obj
 .PHONY : compiler/file.cpp.obj
 
 compiler/file.i: compiler/file.cpp.i
@@ -189,7 +213,7 @@ compiler/file.i: compiler/file.cpp.i
 
 # target to preprocess a source file
 compiler/file.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/file.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/file.cpp.i
 .PHONY : compiler/file.cpp.i
 
 compiler/file.s: compiler/file.cpp.s
@@ -197,7 +221,7 @@ compiler/file.s: compiler/file.cpp.s
 
 # target to generate assembly for a file
 compiler/file.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/file.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/file.cpp.s
 .PHONY : compiler/file.cpp.s
 
 compiler/lexer.obj: compiler/lexer.cpp.obj
@@ -205,7 +229,7 @@ compiler/lexer.obj: compiler/lexer.cpp.obj
 
 # target to build an object file
 compiler/lexer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/lexer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/lexer.cpp.obj
 .PHONY : compiler/lexer.cpp.obj
 
 compiler/lexer.i: compiler/lexer.cpp.i
@@ -213,7 +237,7 @@ compiler/lexer.i: compiler/lexer.cpp.i
 
 # target to preprocess a source file
 compiler/lexer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/lexer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/lexer.cpp.i
 .PHONY : compiler/lexer.cpp.i
 
 compiler/lexer.s: compiler/lexer.cpp.s
@@ -221,7 +245,7 @@ compiler/lexer.s: compiler/lexer.cpp.s
 
 # target to generate assembly for a file
 compiler/lexer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/lexer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/lexer.cpp.s
 .PHONY : compiler/lexer.cpp.s
 
 compiler/main.obj: compiler/main.cpp.obj
@@ -229,7 +253,7 @@ compiler/main.obj: compiler/main.cpp.obj
 
 # target to build an object file
 compiler/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/main.cpp.obj
 .PHONY : compiler/main.cpp.obj
 
 compiler/main.i: compiler/main.cpp.i
@@ -237,7 +261,7 @@ compiler/main.i: compiler/main.cpp.i
 
 # target to preprocess a source file
 compiler/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/main.cpp.i
 .PHONY : compiler/main.cpp.i
 
 compiler/main.s: compiler/main.cpp.s
@@ -245,7 +269,7 @@ compiler/main.s: compiler/main.cpp.s
 
 # target to generate assembly for a file
 compiler/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/main.cpp.s
 .PHONY : compiler/main.cpp.s
 
 compiler/stringA.obj: compiler/stringA.cpp.obj
@@ -253,7 +277,7 @@ compiler/stringA.obj: compiler/stringA.cpp.obj
 
 # target to build an object file
 compiler/stringA.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/stringA.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/stringA.cpp.obj
 .PHONY : compiler/stringA.cpp.obj
 
 compiler/stringA.i: compiler/stringA.cpp.i
@@ -261,7 +285,7 @@ compiler/stringA.i: compiler/stringA.cpp.i
 
 # target to preprocess a source file
 compiler/stringA.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/stringA.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/stringA.cpp.i
 .PHONY : compiler/stringA.cpp.i
 
 compiler/stringA.s: compiler/stringA.cpp.s
@@ -269,7 +293,7 @@ compiler/stringA.s: compiler/stringA.cpp.s
 
 # target to generate assembly for a file
 compiler/stringA.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/stringA.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/stringA.cpp.s
 .PHONY : compiler/stringA.cpp.s
 
 compiler/token.obj: compiler/token.cpp.obj
@@ -277,7 +301,7 @@ compiler/token.obj: compiler/token.cpp.obj
 
 # target to build an object file
 compiler/token.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/token.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/token.cpp.obj
 .PHONY : compiler/token.cpp.obj
 
 compiler/token.i: compiler/token.cpp.i
@@ -285,7 +309,7 @@ compiler/token.i: compiler/token.cpp.i
 
 # target to preprocess a source file
 compiler/token.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/token.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/token.cpp.i
 .PHONY : compiler/token.cpp.i
 
 compiler/token.s: compiler/token.cpp.s
@@ -293,7 +317,7 @@ compiler/token.s: compiler/token.cpp.s
 
 # target to generate assembly for a file
 compiler/token.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/compiler/token.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/compiler/token.cpp.s
 .PHONY : compiler/token.cpp.s
 
 # Help Target
@@ -304,10 +328,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... sen
+	@echo ... senc
 	@echo ... compiler/array.obj
 	@echo ... compiler/array.i
 	@echo ... compiler/array.s
+	@echo ... compiler/ast.obj
+	@echo ... compiler/ast.i
+	@echo ... compiler/ast.s
 	@echo ... compiler/error_handler.obj
 	@echo ... compiler/error_handler.i
 	@echo ... compiler/error_handler.s

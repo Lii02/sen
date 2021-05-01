@@ -5,6 +5,7 @@
 #include "file.h"
 #include "error_handler.h"
 #include "lexer.h"
+#include "ast.h"
 
 int main(int argc, char** argv)
 {
@@ -38,14 +39,14 @@ int main(int argc, char** argv)
             printf("SEN: Unknown flag: %s\n", argv[i]);
         }
     }
-    
+
     file_t* main_file = load_file(argv[1]);
     if(!main_file->loaded)
     {
         printf("SEN: Failed to load: %s\n", argv[1]);
         exit(0);
     }
-    
+
     error_handler* ehandler = new error_handler(args.give_warnings);
     if(!main_file->source.empty())
     {

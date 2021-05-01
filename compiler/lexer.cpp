@@ -69,7 +69,8 @@ void lexer::analyze()
             }
             else if(match('*'))
             {
-                // TODO: Multi-line comment
+                // Multi-line comment
+                handle_multiline_comment();
             }
             else
             {
@@ -87,6 +88,9 @@ void lexer::analyze()
             break;
         case '\"':
             handle_string();
+            break;
+        case '$':
+            handle_macros();
             break;
         default:
             if(is_digit(c))
@@ -234,6 +238,46 @@ void lexer::assemble_arrays()
     datatypes.push("long");
 }
 
+void lexer::handle_multiline_comment()
+{
+    while(!is_end())
+    {
+        advance();
+        if(match('\n')) line++;
+        if(match('*') && advance() == '/')
+        {
+            line++;
+            break;
+        }
+    }
+
+    if(is_end())
+    {
+        ehandler->report_error_general("Unterminated multi-line comment(line approximation).", line, path);
+    }
+}
+
+void lexer::handle_macros()
+{
+    start = counter - 1;
+    while(is_alpha(peek()) && !is_end()) advance();
+    auto lexeme = source->substring(start, counter);
+    
+    for(size_t i = 0; i < macros.get_length(); i++)
+    {
+        if(lexeme == macros[i])
+        {
+            auto token = create_token(MACRO_TOKEN, lexeme);
+            output.push(token);
+            return;
+        }
+    }
+
+    char msg[255];
+    sprintf(msg, "Invalid macro: %s", lexeme.get_buffer());
+    ehandler->report_error_general(msg, line, path);
+}
+
 sourceobject<token> lexer::create_token(int8_t flag, stringA str)
 {
     sourceobject<token> obj = sourceobject<token>(path, line, token(str, flag));
@@ -249,6 +293,6 @@ void lexer::post_debug()
 {
     for(int i = 0; i < output.get_length(); i++)
     {
-        printf("SEN~ Token %d: \'%s\' flag: %d\n", i, output[i].get_data()->lexeme.get_buffer(), output[i].get_data()->flag);
+        printf("SEN~ Token %d: \'%s\' flag: %d | file: %s line: %d\n", i, output[i].get_data()->lexeme.get_buffer(), output[i].get_data()->flag, path.get_buffer(), output[i].get_line());
     }
 }

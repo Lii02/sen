@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = D:\Dev\sen2.0\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/sen.dir/all
+all: CMakeFiles/senc.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/sen.dir/clean
+clean: CMakeFiles/senc.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sen.dir
+# Target rules for target CMakeFiles/senc.dir
 
 # All Build rule for target.
-CMakeFiles/sen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target sen"
-.PHONY : CMakeFiles/sen.dir/all
+CMakeFiles/senc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Dev\sen2.0\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target senc"
+.PHONY : CMakeFiles/senc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\sen2.0\build\CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sen.dir/all
+CMakeFiles/senc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\sen2.0\build\CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/senc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\sen2.0\build\CMakeFiles 0
-.PHONY : CMakeFiles/sen.dir/rule
+.PHONY : CMakeFiles/senc.dir/rule
 
 # Convenience name for target.
-sen: CMakeFiles/sen.dir/rule
-.PHONY : sen
+senc: CMakeFiles/senc.dir/rule
+.PHONY : senc
 
 # clean rule for target.
-CMakeFiles/sen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sen.dir\build.make CMakeFiles/sen.dir/clean
-.PHONY : CMakeFiles/sen.dir/clean
+CMakeFiles/senc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\senc.dir\build.make CMakeFiles/senc.dir/clean
+.PHONY : CMakeFiles/senc.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

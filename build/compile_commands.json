@@ -1,37 +1,42 @@
 [
 {
   "directory": "D:/Dev/sen2.0/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\array.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\array.cpp",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\array.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\array.cpp",
   "file": "D:/Dev/sen2.0/compiler/array.cpp"
 },
 {
   "directory": "D:/Dev/sen2.0/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\error_handler.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\error_handler.cpp",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\ast.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\ast.cpp",
+  "file": "D:/Dev/sen2.0/compiler/ast.cpp"
+},
+{
+  "directory": "D:/Dev/sen2.0/build",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\error_handler.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\error_handler.cpp",
   "file": "D:/Dev/sen2.0/compiler/error_handler.cpp"
 },
 {
   "directory": "D:/Dev/sen2.0/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\file.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\file.cpp",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\file.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\file.cpp",
   "file": "D:/Dev/sen2.0/compiler/file.cpp"
 },
 {
   "directory": "D:/Dev/sen2.0/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\lexer.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\lexer.cpp",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\lexer.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\lexer.cpp",
   "file": "D:/Dev/sen2.0/compiler/lexer.cpp"
 },
 {
   "directory": "D:/Dev/sen2.0/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\main.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\main.cpp",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\main.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\main.cpp",
   "file": "D:/Dev/sen2.0/compiler/main.cpp"
 },
 {
   "directory": "D:/Dev/sen2.0/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\stringA.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\stringA.cpp",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\stringA.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\stringA.cpp",
   "file": "D:/Dev/sen2.0/compiler/stringA.cpp"
 },
 {
   "directory": "D:/Dev/sen2.0/build",
-  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\sen.dir\\compiler\\token.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\token.cpp",
+  "command": "D:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\senc.dir\\compiler\\token.cpp.obj -c D:\\Dev\\sen2.0\\compiler\\token.cpp",
   "file": "D:/Dev/sen2.0/compiler/token.cpp"
 }
 ]

@@ -9,7 +9,7 @@ class lexer
 {
 private:
     dynamic_array<sourceobject<token>> output;
-    dynamic_array<stringA> keywords, datatypes;
+    dynamic_array<stringA> keywords, datatypes, macros;
     stringA* source;
     stringA path;
     error_handler* ehandler;
@@ -27,6 +27,8 @@ private:
     bool is_alphanumeric(char c) const;
     void handle_identifier_keyword_datatype();
     void assemble_arrays();
+    void handle_multiline_comment();
+    void handle_macros();
     sourceobject<token> create_token(int8_t flag);
     sourceobject<token> create_token(int8_t flag, stringA str);
 public:

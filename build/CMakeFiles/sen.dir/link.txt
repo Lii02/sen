@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\sen.dir/objects.a
-D:\MinGW\bin\ar.exe cr CMakeFiles\sen.dir/objects.a @CMakeFiles\sen.dir\objects1.rsp
-D:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\sen.dir/objects.a -Wl,--no-whole-archive -o sen.exe -Wl,--out-implib,libsen.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sen.dir\linklibs.rsp

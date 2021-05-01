@@ -109,7 +109,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/sen
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/senc
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=D:/MinGW/bin/ld.exe
@@ -153,7 +153,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=sen
+CMAKE_PROJECT_NAME:STATIC=senc
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=D:/MinGW/bin/ranlib.exe
@@ -236,10 +236,10 @@ CMAKE_STRIP:FILEPATH=D:/MinGW/bin/strip.exe
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-sen_BINARY_DIR:STATIC=D:/Dev/sen2.0/build
+senc_BINARY_DIR:STATIC=D:/Dev/sen2.0/build
 
 //Value Computed by CMake
-sen_SOURCE_DIR:STATIC=D:/Dev/sen2.0
+senc_SOURCE_DIR:STATIC=D:/Dev/sen2.0
 
 
 ########################
